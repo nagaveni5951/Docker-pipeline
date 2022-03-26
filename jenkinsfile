@@ -1,0 +1,6 @@
+node(){
+    
+    stage("checkout from SCM"){
+        
+      git 'https://github.com/nagaveni5951/Docker-pipeline.git'  
+    }
